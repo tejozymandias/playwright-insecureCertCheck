@@ -18,17 +18,16 @@ const caps = {
   realMobile: "true",
   name: "My android playwright test",
   build: "playwright-build-1",
-  "browserstack.username": process.env.BROWSERSTACK_USERNAME || "<USERNAME>",
-  "browserstack.accessKey":
-    process.env.BROWSERSTACK_ACCESS_KEY || "<ACCESS_KEY>",
-  "browserstack.local": process.env.BROWSERSTACK_LOCAL || false,
+  "browserstack.username": "tejendra_UwDiBS",
+  "browserstack.accessKey": "vieACoa4poN3yrH9Vsgp",
+  "browserstack.local": false,
 };
 
 exports.bsLocal = new BrowserStackLocal.Local();
 
 // replace YOUR_ACCESS_KEY with your key. You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
 exports.BS_LOCAL_ARGS = {
-  key: process.env.BROWSERSTACK_ACCESS_KEY || "ACCESSKEY",
+  key:  "vieACoa4poN3yrH9Vsgp",
 };
 
 // Patching the capabilities dynamically according to the project name.
